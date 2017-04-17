@@ -1,7 +1,7 @@
 # test coverage for  [sharp (v0.17.3)](https://github.com/lovell/sharp)  [![npm package](https://img.shields.io/npm/v/npmtest-sharp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sharp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sharp.svg)](https://travis-ci.org/npmtest/node-npmtest-sharp)
 #### High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images
 
-[![NPM](https://nodei.co/npm/sharp.png?downloads=true)](https://www.npmjs.com/package/sharp)
+[![NPM](https://nodei.co/npm/sharp.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/sharp)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-sharp/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sharp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sharp/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sharp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sharp/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-sharp/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-sharp/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-sharp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sharp/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-sharp/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-sharp%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-sharp/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-sharp/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-sharp/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-sharp/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-sharp%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sharp/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-sharp/build/test-report.html](https://npmtest.github.io/node-npmtest-sharp/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-sharp/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-sharp/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-sharp/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-sharp/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-sharp/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sharp/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-sharp/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +33,7 @@
 
 {
     "author": {
-        "name": "Lovell Fuller",
-        "email": "npm@lovell.info"
+        "name": "Lovell Fuller"
     },
     "bugs": {
         "url": "https://github.com/lovell/sharp/issues"
@@ -45,124 +50,94 @@
     },
     "contributors": [
         {
-            "name": "Pierre Inglebert",
-            "email": "pierre.inglebert@gmail.com"
+            "name": "Pierre Inglebert"
         },
         {
-            "name": "Jonathan Ong",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "Jonathan Ong"
         },
         {
-            "name": "Chanon Sajjamanochai",
-            "email": "chanon.s@gmail.com"
+            "name": "Chanon Sajjamanochai"
         },
         {
-            "name": "Juliano Julio",
-            "email": "julianojulio@gmail.com"
+            "name": "Juliano Julio"
         },
         {
-            "name": "Daniel Gasienica",
-            "email": "daniel@gasienica.ch"
+            "name": "Daniel Gasienica"
         },
         {
-            "name": "Julian Walker",
-            "email": "julian@fiftythree.com"
+            "name": "Julian Walker"
         },
         {
-            "name": "Amit Pitaru",
-            "email": "pitaru.amit@gmail.com"
+            "name": "Amit Pitaru"
         },
         {
-            "name": "Brandon Aaron",
-            "email": "hello.brandon@aaron.sh"
+            "name": "Brandon Aaron"
         },
         {
-            "name": "Andreas Lind",
-            "email": "andreas@one.com"
+            "name": "Andreas Lind"
         },
         {
-            "name": "Maurus Cuelenaere",
-            "email": "mcuelenaere@gmail.com"
+            "name": "Maurus Cuelenaere"
         },
         {
-            "name": "Linus Unnebäck",
-            "email": "linus@folkdatorn.se"
+            "name": "Linus Unnebäck"
         },
         {
-            "name": "Victor Mateevitsi",
-            "email": "mvictoras@gmail.com"
+            "name": "Victor Mateevitsi"
         },
         {
-            "name": "Alaric Holloway",
-            "email": "alaric.holloway@gmail.com"
+            "name": "Alaric Holloway"
         },
         {
-            "name": "Bernhard K. Weisshuhn",
-            "email": "bkw@codingforce.com"
+            "name": "Bernhard K. Weisshuhn"
         },
         {
-            "name": "Chris Riley",
-            "email": "criley@primedia.com"
+            "name": "Chris Riley"
         },
         {
-            "name": "David Carley",
-            "email": "dacarley@gmail.com"
+            "name": "David Carley"
         },
         {
-            "name": "John Tobin",
-            "email": "john@limelightmobileinc.com"
+            "name": "John Tobin"
         },
         {
-            "name": "Kenton Gray",
-            "email": "kentongray@gmail.com"
+            "name": "Kenton Gray"
         },
         {
-            "name": "Felix Bünemann",
-            "email": "Felix.Buenemann@gmail.com"
+            "name": "Felix Bünemann"
         },
         {
-            "name": "Samy Al Zahrani",
-            "email": "samyalzahrany@gmail.com"
+            "name": "Samy Al Zahrani"
         },
         {
-            "name": "Chintan Thakkar",
-            "email": "lemnisk8@gmail.com"
+            "name": "Chintan Thakkar"
         },
         {
-            "name": "F. Orlando Galashan",
-            "email": "frulo@gmx.de"
+            "name": "F. Orlando Galashan"
         },
         {
-            "name": "Kleis Auke Wolthuizen",
-            "email": "info@kleisauke.nl"
+            "name": "Kleis Auke Wolthuizen"
         },
         {
-            "name": "Matt Hirsch",
-            "email": "mhirsch@media.mit.edu"
+            "name": "Matt Hirsch"
         },
         {
-            "name": "Matthias Thoemmes",
-            "email": "thoemmes@gmail.com"
+            "name": "Matthias Thoemmes"
         },
         {
-            "name": "Patrick Paskaris",
-            "email": "patrick@paskaris.gr"
+            "name": "Patrick Paskaris"
         },
         {
-            "name": "Jérémy Lal",
-            "email": "kapouer@melix.org"
+            "name": "Jérémy Lal"
         },
         {
-            "name": "Rahul Nanwani",
-            "email": "r.nanwani@gmail.com"
+            "name": "Rahul Nanwani"
         },
         {
-            "name": "Alice Monday",
-            "email": "alice0meta@gmail.com"
+            "name": "Alice Monday"
         },
         {
-            "name": "Kristo Jorgenson",
-            "email": "kristo.jorgenson@gmail.com"
+            "name": "Kristo Jorgenson"
         }
     ],
     "dependencies": {
@@ -218,13 +193,11 @@
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "lovell",
-            "email": "npm@lovell.info"
+            "name": "lovell"
         }
     ],
     "name": "sharp",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/lovell/sharp.git"
