@@ -1,6 +1,6 @@
 # npmtest-sharp
 
-#### test coverage for  [sharp (v0.17.3)](https://github.com/lovell/sharp)  [![npm package](https://img.shields.io/npm/v/npmtest-sharp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sharp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sharp.svg)](https://travis-ci.org/npmtest/node-npmtest-sharp)
+#### basic test coverage for  [sharp (v0.17.3)](https://github.com/lovell/sharp)  [![npm package](https://img.shields.io/npm/v/npmtest-sharp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sharp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sharp.svg)](https://travis-ci.org/npmtest/node-npmtest-sharp)
 
 #### High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images
 
