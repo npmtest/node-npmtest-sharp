@@ -648,12 +648,18 @@ local.templateApidocHtml = '\
                 options.moduleExtraDict[options.env.npm_package_name] || {};
             [1, 2, 3].forEach(function (depth) {
                 options.libFileList = options.libFileList.concat(
+                    // http://stackoverflow.com
+                    // /questions/4509624/how-to-limit-depth-for-recursive-file-list
+                    // find . -maxdepth 1 -mindepth 1 -name "*.js" -type f
                     local.child_process.execSync('find "' + options.dir +
                         '" -maxdepth ' + depth + ' -mindepth ' + depth +
                         ' -name "*.js" -type f | sort | head -n 4096').toString()
                         .split('\n')
                         .map(function (file) {
                             return file.replace(options.dir + '/', '');
+                        })
+                        .filter(function (file) {
+                            return !(/^(?:\.git|node_modules|tmp)\b/).test(file);
                         })
                 );
             });
@@ -10142,7 +10148,7 @@ local.assetsDict['/assets.readmeCustomOrg.npmtest.template.md'] = '\
 # npmtest-{{env.npm_package_name}} \
 \n\
 \n\
-#### test coverage for \
+#### basic test coverage for \
 {{#if env.npm_package_homepage}} \
 [{{env.npm_package_name}} (v{{env.npm_package_version}})]({{env.npm_package_homepage}}) \
 {{#unless env.npm_package_homepage}} \
